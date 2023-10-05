@@ -5,6 +5,7 @@ import config from "../config";
 const connection = mysql.createConnection({
   host: config.host,
   database: config.database,
+  port: config.port,
   user: config.user,
   password: config.password,
 });
